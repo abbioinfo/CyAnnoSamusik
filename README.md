@@ -11,7 +11,7 @@ Rscript plotsamusik.R PATH_TO_SAMUSIK_OUPUT_DIRECTORY
 ```
 The last Rscript will plot the F1 table (observed label vs expected labels) per sample and cell type. The plot must look like this 
 
-![plot]('./_img/CellTypeF1Samusik.png')
+![plot](./_img/CellTypeF1Samusik.png)
 
 # Cite
 If you use CyAnno for your research. Please [cite](https://www.biorxiv.org/content/10.1101/2020.08.28.272559v1)
