@@ -1,5 +1,9 @@
 ## plot the samusik results ##
 ## author @abhinav kaushik
+## Usage: Rscript plotsamusik.R [PATH TO SAMUSIK OUTPUT DIRECTORY]
+## Example: Rscript plotsamusik.R Samusik__26_2_2021_15_26/
+
+
 
 library(dplyr)
 library(ggplot2)
@@ -7,7 +11,7 @@ library(ggplot2)
 args = commandArgs(trailingOnly=TRUE)
 
 dname = args[0]
-dname = "Samusik__26_2_2021_15_26/"
+#dname = "Samusik__26_2_2021_15_26/"
 
 
 df = read.csv(paste(dname,"Method_x__Acc_stats.csv", sep="/"))
