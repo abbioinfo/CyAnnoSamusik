@@ -9,11 +9,11 @@ Rscript Process.R
 python CyAnno.py
 Rscript plotsamusik.R PATH_TO_SAMUSIK_OUPUT_DIRECTORY
 ```
-The last Rscript will plot the F1 table (observed label vs expected labels) per sample and cell type. The plot must look like this 
+The last Rscript will plot the F1 table (predicted label vs expected labels) per sample and cell type. The plot must look like this 
 
 ![plot](./_img/SampleF1Samusik.png)
 
-
+Here each dot represent the F1 score for each sample labelled by CyAnno. The High F1 score indicates, large similarity between expected vs predicted cell labels.
 
 ![plot](./_img/CellTypeF1Samusik.png)
 
